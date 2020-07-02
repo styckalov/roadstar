@@ -1,0 +1,48 @@
+.lodging-policy__container {
+  font-family: Roboto, serif;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #262530;
+  color: #FFFFFF;
+}
+.lodging-policy__first-row {
+  display: flex;
+  justify-content: center;
+}
+.lodging-policy__second-row {
+  display: flex;
+  justify-content: center;
+}
+.lodging-policy__title {
+  font-family: Syncopate, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  line-height: 0;
+  text-transform: uppercase;
+  span {
+    color: #C8A042;
+    font-weight: 100;
+  }
+}
+.lodging-policy__services-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25% 0 25%;
+}
+.lodging-policy__services-grid > * {
+  flex: 0 0 128px;
+}
+.lodging-policy__grid-element {
+  width: 128px;
+  height: 128px;
+  background-color: #35343F;
+  margin: 1px;
+}

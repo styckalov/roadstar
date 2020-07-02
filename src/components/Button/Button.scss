@@ -1,0 +1,63 @@
+.main-button {
+  font-family: Roboto, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 0;
+  width: 145px;
+  height: 33px;
+  border: 1px solid #C8A042;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #C8A042;
+  text-transform: uppercase;
+  position: relative;
+
+  &:after {
+    content: "__";
+    top: 10px;
+    left: 0;
+    position: absolute;
+  }
+
+  &:before {
+    content: '';
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale(0.001, 0.001);
+  }
+
+  &:focus {
+    outline: 0;
+    color: #fff;
+
+    &:before {
+      animation: effect_dylan 0.8s ease-out;
+    }
+  }
+}
+@keyframes effect_dylan {
+  50% {
+    transform: scale(1.5, 1.5);
+    opacity: 0;
+  }
+  99% {
+    transform: scale(0.001, 0.001);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(0.001, 0.001);
+    opacity: 1;
+  }
+}

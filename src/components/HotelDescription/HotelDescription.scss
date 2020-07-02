@@ -1,0 +1,53 @@
+.hotel-description__right {
+  float: right;
+}
+.hotel-description__left {
+  float: left;
+}
+.hotel-description__container {
+  background: #262530;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  img {
+    width: 551px;
+    height: 407px;
+  }
+}
+.hotel-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  margin-bottom: 45px;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF;
+  width: 308px;
+  justify-self: center;
+}
+.hotel-description__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.hotel-description__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  line-height: 0;
+  text-transform: uppercase;
+  span {
+    color: #C8A042;
+    font-weight: 100;
+  }
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

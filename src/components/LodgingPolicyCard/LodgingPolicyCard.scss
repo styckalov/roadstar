@@ -1,0 +1,28 @@
+
+.lodging-policy__card {
+  width: 166px;
+  height: 150px;
+  margin: 20px;
+  background: #35343F;
+  font-family: Roboto, serif;
+  p {
+    margin: 7px;
+  }
+}
+.lodging-policy__price {
+  color: #C8A042;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 11px;
+  text-align: center;
+  letter-spacing: 0.035em;
+}
+.lodging-policy__room {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
